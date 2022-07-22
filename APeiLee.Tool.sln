@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32630.192
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "APeiLee.Tool", "APeilee.Tool\APeiLee.Tool.csproj", "{22C4A600-2CDF-460A-951B-A63EC845991C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "APeiLee.Tool.Tests", "APeiLee.Tool.Tests\APeiLee.Tool.Tests.csproj", "{FE57C660-C285-4839-B68A-834A697791ED}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{22C4A600-2CDF-460A-951B-A63EC845991C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22C4A600-2CDF-460A-951B-A63EC845991C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22C4A600-2CDF-460A-951B-A63EC845991C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22C4A600-2CDF-460A-951B-A63EC845991C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE57C660-C285-4839-B68A-834A697791ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE57C660-C285-4839-B68A-834A697791ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE57C660-C285-4839-B68A-834A697791ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE57C660-C285-4839-B68A-834A697791ED}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {938BACDD-226C-47DC-9E3B-614031A7E3C4}
+	EndGlobalSection
+EndGlobal
