@@ -92,28 +92,5 @@ namespace APeiLee.Tool
 
             return Convert.ToBoolean(value);
         }
-
-        public static DateTime ToDateTime(this string valueStr, DateTime defaultDateTime)
-        {
-            DateTime resultValue;
-
-            if (string.IsNullOrEmpty(valueStr))
-            {
-                resultValue = defaultDateTime;
-            }
-
-            else
-            {
-                if (!DateTime.TryParse(Convert.ToString(valueStr), out DateTime result))
-                {
-                    resultValue = defaultDateTime;
-                }
-                else
-                {
-                    resultValue = result;
-                }
-            }
-            return resultValue;
-        }
     }
 }

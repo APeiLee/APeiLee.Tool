@@ -65,6 +65,29 @@ namespace APeiLee.Tool
             return null;
         }
 
+        public static DateTime ToDateTime(this string valueStr, DateTime defaultDateTime)
+        {
+            DateTime resultValue;
+
+            if (string.IsNullOrEmpty(valueStr))
+            {
+                resultValue = defaultDateTime;
+            }
+
+            else
+            {
+                if (!DateTime.TryParse(Convert.ToString(valueStr), out DateTime result))
+                {
+                    resultValue = defaultDateTime;
+                }
+                else
+                {
+                    resultValue = result;
+                }
+            }
+            return resultValue;
+        }
+
         /// <summary>
         /// ToString("yyyy-MM-dd HH:mm:ss")
         /// </summary>
