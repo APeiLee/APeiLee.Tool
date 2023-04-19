@@ -3,7 +3,7 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.1</TargetFramework>
     <Nullable>enable</Nullable>
-    <Version>1.0.3</Version>
+    <Version>1.0.4</Version>
     <Authors>APeiLee.com</Authors>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <Description>APeiLee的常用工具包</Description>

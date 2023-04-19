@@ -71,7 +71,7 @@ namespace APeiLee.Tool
         /// <param name="value"></param>
         /// <param name="defaultValue"></param>
         /// <returns></returns>
-        public static Int32 ToInt32(this Object value, Int32 defaultValue = 0)
+        public static Int32 ToInt32(this object? value, Int32 defaultValue = 0)
         {
             if (value == null) return defaultValue;
             Int32 m;
@@ -83,7 +83,7 @@ namespace APeiLee.Tool
         /// </summary>
         /// <param name="value"></param>
         /// <returns></returns>
-        public static bool ToBoolean(this object value)
+        public static bool ToBoolean(this object? value)
         {
             if (value == null)
             {

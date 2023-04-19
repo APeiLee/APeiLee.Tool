@@ -13,8 +13,12 @@ namespace APeiLee.Tool
         {
             string str = enumValue.ToString();
             System.Reflection.FieldInfo field = enumValue.GetType().GetField(str);
+            if (field == null)
+            {
+                return str;
+            }
+            
             object[] objs = field.GetCustomAttributes(typeof(System.ComponentModel.DescriptionAttribute), false);
-
             if (objs.Length == 0)
             {
                 return str;
